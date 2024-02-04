@@ -252,7 +252,7 @@ $('#send'). click(function(){
      var audio=$('.bdwish')[0];
      audio.play();
    });
-$('#play').click(function(){
+$('button:nth-child(even)').click(function(){
      var audio=$('.meow')[0];
      audio.play();
    });
