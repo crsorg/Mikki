@@ -249,6 +249,10 @@ $('#send'). click(function(){
   window.open(whatsappURL, '_blank');
   }});
   $('button:first').click(function(){
+     var audio=$('.bdwish')[0];
+     audio.play();
+   });
+$('button:second').click(function(){
      var audio=$('.meow')[0];
      audio.play();
    });
